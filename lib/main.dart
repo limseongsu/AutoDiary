@@ -1,8 +1,13 @@
 import 'package:autodiary/view/splash/splash_page.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 void main() {
-  runApp( AutoDiary());
+  runApp(
+      GetMaterialApp(
+          debugShowCheckedModeBanner: false,
+          home: AutoDiary())
+  );
 }
 
 class AutoDiary extends StatelessWidget {
