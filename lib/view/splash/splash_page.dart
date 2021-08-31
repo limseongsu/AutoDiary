@@ -1,4 +1,4 @@
-import 'package:autodiary/view/main/home.dart';
+import 'package:autodiary/view/main/main_home.dart';
 import 'package:easy_splash_screen/easy_splash_screen.dart';
 import 'package:flutter/material.dart';
 
